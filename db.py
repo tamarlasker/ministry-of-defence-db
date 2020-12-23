@@ -175,12 +175,12 @@ class DBTable(db_api.DBTable):
                 writer.writerows(all_records)
             delete_item_from_index(key, index_file)
 
-    # def delete_records(self, criteria: List[db_api.SelectionCriteria]) -> None:
+     def delete_records(self, criteria: List[db_api.SelectionCriteria]) -> None:
 
         
 
-    # def get_record(self, key: Any) -> Dict[str, Any]:
-    #     files = find_table(self.name)[-1]
+     def get_record(self, key: Any) -> Dict[str, Any]:
+         files = find_table(self.name)[-1]
 
 
     # def update_record(self, key: Any, values: Dict[str, Any]) -> None:
